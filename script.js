@@ -1,14 +1,18 @@
-// Array المصفوفه
+var person = {
+    fristName: "Noura" ,
+    address :{
+        city: "cairo",
+        country: "Eygpt"
 
-const langs = ["العربيه", "الانجليزيه","الفرنسيه"];
-langs[0] = "الايطاليه";
-console.log(langs);
-
-console.log(langs[2]);
-
-langs.push("العربيه");//يضيف اى حاجه انا عاوزاها
-langs.pop(); // يمسح اخر  حاجه
-
-console.log(langs);
-
+    },
+    hobbies : ["football","basketball"],
+    id: 1234,
+    sayHi : function(){
+        console.log("Hi")
+    }
+};
+person.fristName = "Alaidy"
+person.sayHi()
+console.log(person.hobbies[1]);
+console.log(person.address);
 
